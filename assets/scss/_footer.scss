@@ -1,0 +1,50 @@
+footer {
+  height: 70vh;
+  width: 100%;
+  background: #232f32;
+  color: #ffffff;
+  padding-top: 179px;
+
+  .footer__title {
+    @include montserate;
+    font-size: 40px;
+    line-height: 51.42px;
+    letter-spacing: -1.8px;
+    margin-left: 103px;
+  }
+
+  .footer__text {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+  }
+
+  .footer__email {
+    color: $red;
+    @include montserate;
+    font-size: 40px;
+    line-height: 51.42px;
+    letter-spacing: -1.8px;
+    margin-left: 103px;
+    margin-left: 132px;
+  }
+
+  .footer__copy {
+    border-top: 1px solid $white;
+    height: 10vh;
+    width: 80%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+
+    p {
+      @include roboto;
+      font-size: 16px;
+      line-height: 30px;
+      letter-spacing: 0.4px;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+}

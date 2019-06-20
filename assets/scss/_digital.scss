@@ -1,0 +1,83 @@
+.digital {
+  height: 100vh;
+  width: 100%;
+  @include aic;
+  @include jcc;
+
+  &-img img {
+    width: 471px;
+    height: 501px;
+    object-fit: cover;
+    opacity: 0.4;
+  }
+
+  &-text {
+    max-width: 600px;
+    margin-left: -75px;
+    z-index: 3;
+
+    &__title {
+      max-width: 791px;
+      color: $red;
+      @include montserate;
+      font-size: 40px;
+      line-height: 80px;
+      text-transform: uppercase;
+      letter-spacing: -2.7px;
+      margin-bottom: 15px;
+    }
+
+    &__maintext {
+      margin-left: 101px;
+      max-width: 606px;
+      color: $black;
+      @include roboto;
+      font-size: 16px;
+      line-height: 25px;
+      letter-spacing: 0.4px;
+    }
+  }
+}
+
+
+.webdesign {
+  height: 100vh;
+  width: 100%;
+  @include aic;
+  @include jcc;
+
+  &-img img {
+    width: 471px;
+    height: 501px;
+    object-fit: cover;
+    opacity: 0.4;
+  }
+
+  &-text {
+    max-width: 600px;
+    margin-right: -75px;
+    z-index: 3;
+    text-align: right;
+
+    &__title {
+      max-width: 791px;
+      color: $red;
+      @include montserate;
+      font-size: 40px;
+      line-height: 80px;
+      text-transform: uppercase;
+      letter-spacing: -2.7px;
+      margin-bottom: 15px;
+    }
+
+    &__maintext {
+      margin-right: 101px;
+      max-width: 606px;
+      color: $black;
+      @include roboto;
+      font-size: 16px;
+      line-height: 25px;
+      letter-spacing: 0.4px;
+    }
+  }
+}

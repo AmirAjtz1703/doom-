@@ -1,0 +1,39 @@
+@mixin jcsb {
+  display: flex;
+  justify-content: space-between;
+}
+@mixin aic {
+  display: flex;
+  align-items: center;
+}
+@mixin jcc {
+  display: flex;
+  justify-content: center;
+}
+@mixin jcsa {
+  display: flex;
+  justify-content: space-around;
+}
+@mixin fdc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@mixin maxw {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+@mixin roboto {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+}
+@mixin montserate {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+}
+@mixin fw {
+  display: flex;
+  flex-wrap: wrap;
+}

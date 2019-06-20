@@ -1,0 +1,50 @@
+header {
+  height: 5vh;
+  width: 100%;
+  border-bottom: 1px solid $grey;
+
+  .container {
+    width: 100%;
+    @include jcsb;
+
+    .header-logo img {
+      padding-top: 10px;
+    }
+  }
+}
+
+.header-hero {
+  height: 95vh;
+  width: 100%;
+  @include jcsa;
+
+  &__text {
+    @include fdc;
+
+    .title {
+      max-width: 791px;
+      color: $red;
+      @include montserate;
+      font-size: 40px;
+      line-height: 80px;
+      text-transform: uppercase;
+      letter-spacing: -2.7px;
+      margin-bottom: -30px;
+    }
+
+    .text {
+      margin-left: 101px;
+      max-width: 606px;
+      color: $black;
+      @include roboto;
+      font-size: 16px;
+      line-height: 25px;
+      letter-spacing: 0.4px;
+    }
+  }
+
+  &__arrow {
+    margin-top: 30%;
+    @include aic;
+  }
+}

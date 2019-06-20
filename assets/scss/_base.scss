@@ -1,0 +1,20 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  line-height: 1.6;
+  letter-spacing: 1px;
+  @include roboto;
+  background: $white;
+  color: $red;
+}
+
+.wrapper {
+  @include maxw;
+}
